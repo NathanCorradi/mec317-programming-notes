@@ -23,10 +23,17 @@ message = f"hello, {full_name.title()}!"
 print(message)
 """Now everything as been shrunk down into a single variable to make it easier to understand on our end"""
 
-prong_lang = ' python '
-print(prong_lang)
+prong_lang = ' python ' #variable prong_lang stores the current programming that we are using 
+print(prong_lang) #printstatement that will print content of variable prong_lang to the user application layer
 prong_lang.rstrip()
 prong_lang.lstrip()
 prong_lang.strip()
 """(.rstrip) removes the space at the back fo the variable, (.lstrip) removes the space at the front of the variable, (.strip) removes both spaces in the variable."""
 """To see you have to go on control panel because the variables aren't very complex"""
+
+#this part of the code takes the values form sensor bla sand bla 
+#conversts the signal from volt to degrees celcius and print it to 
+#the UI
+#above is examples of commenting
+
+
