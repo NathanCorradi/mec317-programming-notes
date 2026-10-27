@@ -23,7 +23,7 @@ message = f"hello, {full_name.title()}!"
 print(message)
 """Now everything as been shrunk down into a single variable to make it easier to understand on our end"""
 
-prong_lang = ' python ' #variable prong_lang stores the current programming that we are using 
+prong_lang = ' python ' #variable prong_lang stores the current string that we are using 
 print(prong_lang) #printstatement that will print content of variable prong_lang to the user application layer
 prong_lang.rstrip()
 prong_lang.lstrip()

@@ -24,7 +24,7 @@ colors.append('megents')
 colors.append('ham')
 colors.append('pink')
 print(colors)
-#here I started with an empty list and added the differen't colors using the append command
+#here I started with an empty list and added the different colors using the append command
 
 colors = ['brown','red','purple']
 print(colors)
