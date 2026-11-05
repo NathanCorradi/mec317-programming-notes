@@ -51,3 +51,4 @@ print("\n")
 cnc_1 = {'x_position':0,'y_position':10,'speed':'medium'}
 cnc_value = cnc_1.get('z_position','No position value assigned.') #the get command is trying to get the z_position, but if it doesn't exist it will say 'No position value assigned.'
 print(cnc_value) 
+

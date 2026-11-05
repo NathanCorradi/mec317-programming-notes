@@ -124,6 +124,3 @@ for requested_feature in requested_features:
     else:
         print(f"Sorry, we don't have a {requested_feature}")
 print("\nFinished processing your order!")
-
-print("\n")
-
