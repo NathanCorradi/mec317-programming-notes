@@ -85,10 +85,6 @@ nested_machines = {
 
 ordered_machines[1]['status']
 
-for machine in ordered_machines:
-    if machine['machine'] == 'CNC_2':
-        stauts = machine['status']
-
 
 nested_machines['CNC_2']['status']
 print(nested_machines['CNC_2']['temperature'][0])
