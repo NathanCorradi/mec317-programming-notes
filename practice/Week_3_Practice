@@ -48,7 +48,7 @@ for age in different_ages:
     elif age == '13':
         print("This is when you become a tweenager at 13")
     elif age == '18':
-        print("At 18 you are offcially an adult at the age of 18")
+        print("At 18 you are officially an adult at the age of 18")
     elif age == '21':
         print("You can now legally drink and smoke at 21 in the USA")
     elif age == '30':
