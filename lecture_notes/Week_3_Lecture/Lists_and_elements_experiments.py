@@ -20,7 +20,7 @@ colors.append('pink') #used to add the color pink to the end of the list
 print(colors)
 
 colors = []
-colors.append('megents')
+colors.append('megenta')
 colors.append('ham')
 colors.append('pink')
 print(colors)
