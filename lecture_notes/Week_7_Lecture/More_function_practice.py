@@ -1,5 +1,5 @@
 def build_course(tech,app,credits = None):
-    """ Return a dicticonary o fa course description"""
+    """ Return a dicticonary of a course description"""
     course = {'technology':tech, 'application':app}
     if credits:
         course['credits'] = credits 

@@ -10,8 +10,8 @@ while active:
         print("\n")
         print(message)
 
-squawk = "\n Type in one item at a time, anyting you would like to add to the shopping list: " 
-squawk += "\nEnter 'quit' when you are finished\n"
+squawk = "\nType in one item at a time, anyting you would like to add to the shopping list: " 
+squawk += "\n\tEnter 'quit' when you are finished\n"
 shopping_list = [] #used to have a list that the items typed will be put
 
 while True:
@@ -48,3 +48,4 @@ while unconfirmed_models:
 print("\nThe following models have been confirmed: ")
 for confirmed_model in confirmed_models:
     print(confirmed_model.title())
+
