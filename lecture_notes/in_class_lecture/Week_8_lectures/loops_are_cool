@@ -1,0 +1,22 @@
+"""
+For loops are count of sequence conntrolled
+While loops are condition conntrolled
+"""
+
+menu = ["pizza","beer","wings"]
+
+for item in menu:
+    print(item)
+
+for num in range(2, 101,2):
+    print(num)
+
+import random
+random_number = random.randint(1, 10)
+
+guess = int(input("Guess a number between 1 and 10: "))
+while guess != random_number:
+    print("WRONG lol")
+    guess = int(input("Guess a number between 1 and 10: "))
+
+print("good job")

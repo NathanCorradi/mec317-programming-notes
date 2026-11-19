@@ -21,8 +21,7 @@ while True:
     elif shop_list == 'list': #If 'list' is typed it will print the list using a for loop
         print("\nYour list contains:")
         for item in shopping_list:
-            print(item.title())
-    
+            print(item.title()) 
     else: #Anything else will be considered an item for the shopping list
         shopping_list.append(shop_list) #This is how the items are placed into the shopping list
         print("\n")
